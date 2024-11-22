@@ -24,7 +24,7 @@ A RESTful API for managing real estate properties. It allows users to create, up
 ### Steps
 ## 1. Clone the repository:  
 
-   git clone https://github.com/your-username/real-estate-agency.git
+   git clone https://github.com/MohamedAliNaguez/Real-Estate-Agency.git
    cd real-estate-agency
    cd real-estate-agency-app
 
