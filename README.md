@@ -45,7 +45,7 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
   php artisan migrate --seed
 
-## 5. Start server ; 
+## 5. Start server: 
 
   php artisan serve
 
