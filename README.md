@@ -34,7 +34,14 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
 ## 3. Configure the .env file:
 
+for Linux : 
+
  cp .env.example .env
+
+For windows : 
+
+copy .env.example .env
+
 
 (make sure to edit the MYSQL password if it's not root)
 
