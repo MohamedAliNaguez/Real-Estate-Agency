@@ -59,6 +59,7 @@ Base URL: http://127.0.0.1:8000
 | GET    | `/api/properties/nearby`| Search properties within a radius       |
 
 Example of search api test : http://127.0.0.1:8000/api/properties/search?type=Apartment
+
 Example of nearby api test : http://127.0.0.1:8000/api/properties/nearby?latitude=40.71280000&longitude=-74.00600000&radius=10000
 
 7. Possible improvements :
