@@ -36,6 +36,8 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
  cp .env.example .env
 
+(make sure to edit the MYSQL password if it's not root)
+
 ## 4. Run migrations and seed the database:
 
   php artisan migrate --seed
