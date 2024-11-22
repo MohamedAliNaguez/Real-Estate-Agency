@@ -22,17 +22,17 @@ A RESTful API for managing real estate properties. It allows users to create, up
 - Git
 
 ### Steps
-1. Clone the repository:  
+## 1. Clone the repository:  
 
    git clone https://github.com/your-username/real-estate-agency.git
    cd real-estate-agency
    cd real-estate-agency-app
 
-2. Install dependencies:
+## 2. Install dependencies:
 
    composer install
 
-3. Configure the .env file:
+## 3. Configure the .env file:
 
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
@@ -41,15 +41,15 @@ A RESTful API for managing real estate properties. It allows users to create, up
   DB_USERNAME=root
   DB_PASSWORD=root
 
-4. Run migrations and seed the database:
+## 4. Run migrations and seed the database:
 
   php artisan migrate --seed
 
-5. Start server ; 
+## 5. Start server ; 
 
   php artisan serve
 
-6. Access the API:
+## 6. Access the API:
 
 Base URL: http://127.0.0.1:8000
 
@@ -67,7 +67,7 @@ Example of search api test : http://127.0.0.1:8000/api/properties/search?type=Ap
 
 Example of nearby api test : http://127.0.0.1:8000/api/properties/nearby?latitude=40.71280000&longitude=-74.00600000&radius=10000
 
-7. Possible improvements :
+## 7. Possible improvements :
 
 + Add authentication and role-based access.
 + Implement pagination.
