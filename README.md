@@ -34,11 +34,11 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
 ## 3. Configure the .env file:
 
-for Linux : 
+Using Git Bash or WSL:
 
  cp .env.example .env
 
-For windows : 
+Using windows : 
 
 copy .env.example .env
 
