@@ -34,12 +34,7 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
 ## 3. Configure the .env file:
 
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=realestatedb
-  DB_USERNAME=root
-  DB_PASSWORD=root
+ cp .env.example .env
 
 ## 4. Run migrations and seed the database:
 
