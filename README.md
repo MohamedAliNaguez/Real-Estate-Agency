@@ -34,16 +34,15 @@ A RESTful API for managing real estate properties. It allows users to create, up
 
 ## 3. Configure the .env file:
 
-Using Git Bash or WSL:
+#### Using Git Bash or WSL:
 
  cp .env.example .env
 
-Using windows : 
+#### Using windows : 
 
 copy .env.example .env
 
-
-(make sure to edit the MYSQL password if it's not root)
+#### (make sure to edit the MYSQL password if it's not root)
 
 ## 4. Run migrations and seed the database:
 
@@ -55,7 +54,7 @@ copy .env.example .env
 
 ## 6. Access the API:
 
-Base URL: http://127.0.0.1:8000
+#### Base URL: http://127.0.0.1:8000
 
 | Method | Endpoint                | Description                              |
 |--------|-------------------------|------------------------------------------|
@@ -94,11 +93,15 @@ http://127.0.0.1:8000/api/properties/search?price=200000
 
 ### Nerby API 
 
-This search  returns all properties contained by an area defined by a geographical (Lat/Lon) point and a radius distance from it
+#### This search  returns all properties contained by an area defined by a geographical (Lat/Lon) point and a radius distance from it
+
+#### Usage :
 
 http://127.0.0.1:8000/api/properties/nearby?latitude={latitude}&longitude={longitude}&radius={radius}
 
-Example of nearby api test : http://127.0.0.1:8000/api/properties/nearby?latitude=40.71280000&longitude=-74.00600000&radius=10000
+#### Example of nearby api test :
+
+http://127.0.0.1:8000/api/properties/nearby?latitude=40.71280000&longitude=-74.00600000&radius=10000
 
 ## 7. Possible improvements :
 
