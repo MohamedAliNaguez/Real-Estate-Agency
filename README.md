@@ -67,7 +67,36 @@ Base URL: http://127.0.0.1:8000
 | GET    | `/api/properties/search`| Search properties with filters          |
 | GET    | `/api/properties/nearby`| Search properties within a radius       |
 
-Example of search api test : http://127.0.0.1:8000/api/properties/search?type=Apartment
+### Search API 
+
+http://127.0.0.1:8000/api/properties/search?{parameter1}={value1}&{parameter2}={value2}...
+
+#### Search by type : 
+
+ http://127.0.0.1:8000/api/properties/search?type=Apartment
+
+#### Search by Address:
+
+http://127.0.0.1:8000/api/properties/search?address=Suite
+
+#### Search by Size:
+
+http://127.0.0.1:8000/api/properties/search?size=1500
+
+#### Search by bedrooms:
+
+http://127.0.0.1:8000/api/properties/search?bedrooms=3
+
+#### Search by maximum price:
+
+http://127.0.0.1:8000/api/properties/search?price=200000
+
+
+### Nerby API 
+
+This search  returns all properties contained by an area defined by a geographical (Lat/Lon) point and a radius distance from it
+
+http://127.0.0.1:8000/api/properties/nearby?latitude={latitude}&longitude={longitude}&radius={radius}
 
 Example of nearby api test : http://127.0.0.1:8000/api/properties/nearby?latitude=40.71280000&longitude=-74.00600000&radius=10000
 
