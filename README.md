@@ -66,7 +66,7 @@ copy .env.example .env
 | GET    | `/api/properties/search`| Search properties with filters          |
 | GET    | `/api/properties/nearby`| Search properties within a radius       |
 
-### Search API 
+### + Search API 
 
 http://127.0.0.1:8000/api/properties/search?{parameter1}={value1}&{parameter2}={value2}...
 
@@ -91,7 +91,7 @@ http://127.0.0.1:8000/api/properties/search?bedrooms=3
 http://127.0.0.1:8000/api/properties/search?price=200000
 
 
-### Nearby API 
+### + Nearby API 
 
 #### This search  returns all properties contained by an area defined by a geographical (Lat/Lon) point and a radius distance from it
 
