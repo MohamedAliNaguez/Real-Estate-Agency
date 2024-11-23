@@ -91,7 +91,7 @@ http://127.0.0.1:8000/api/properties/search?bedrooms=3
 http://127.0.0.1:8000/api/properties/search?price=200000
 
 
-### Nerby API 
+### Nearby API 
 
 #### This search  returns all properties contained by an area defined by a geographical (Lat/Lon) point and a radius distance from it
 
